@@ -3,7 +3,7 @@ package AssignmentDetails;
 import java.util.Properties;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.WebDriver;
 //import org.testng.Assert;
 
@@ -13,8 +13,8 @@ public class Assignment1 {
 	
 
 		public static void main(String[] args) {
-			System.setProperty("webdriver.chrome.driver","C://chromedriver.exe");
-			WebDriver driver=new ChromeDriver();	
+			System.setProperty("webdriver.gecko.driver","C:\\Users\\16126\\OneDrive\\Desktop\\geckodriver.exe");
+			WebDriver driver=new FirefoxDriver();	
 			driver.manage().window().maximize();
 			driver.get("https://www.vitshr.com/");
 			//Webdriver s= new webdriver(driver.findElement(By.tagname("a")));

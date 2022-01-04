@@ -1,7 +1,7 @@
 package AssignmentDetails;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.chrome.Chromedriver;
+import org.openqa.selenium.Chrome;
 import org.openqa.selenium.WebDriver;
 
 public class Assignment3 {
