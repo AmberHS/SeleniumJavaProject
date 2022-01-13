@@ -1,25 +1,25 @@
 package AssignmentDetails;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Chrome;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
 
 public class Assignment3 {
 
 
-	private static Object driver;
-
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 		
 		
-		System.setProperty("webdriver.chrome.driver","C://chromedriver.exe\"");
-		WebDriver WebDriver = new WebDriver();
-		WebDriver.get("https://flipkart.com");
-		WebDriver a = new WebDriver();
-		WebDriver a1:(driver.findElements(By.tagname("div")).size());
-		System.out.println(driver.findElements(By.tagname("div")).size());
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\16126\\eclipse-workspace\\SeleniumJavaProject\\exefiles\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://flipkart.com");
+		driver.findElements(By.tagName("div")).size();
+		System.out.println(driver.findElements(By.tagName("div")).size());
 		
 		
 		

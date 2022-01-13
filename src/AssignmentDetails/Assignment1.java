@@ -1,19 +1,14 @@
 package AssignmentDetails;
 
-import java.util.Properties;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.WebDriver;
-//import org.testng.Assert;
-
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Assignment1 {
 
 	
 
 		public static void main(String[] args) {
-			System.setProperty("webdriver.gecko.driver","C:\\Users\\16126\\OneDrive\\Desktop\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver","C:\\Users\\16126\\eclipse-workspace\\SeleniumJavaProject\\exefiles\\geckodriver.exe");
 			WebDriver driver=new FirefoxDriver();	
 			driver.manage().window().maximize();
 			driver.get("https://www.vitshr.com/");
@@ -35,3 +30,5 @@ public class Assignment1 {
 	}
 
 }
+
+//
